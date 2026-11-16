@@ -1,0 +1,21 @@
+{
+  "dataset": "Wisconsin Diagnostic Breast Cancer (sklearn built-in copy)",
+  "rows": 569,
+  "features": 30,
+  "positive_class": "malignant",
+  "positive_rate": 0.37258347978910367,
+  "seed": 2026,
+  "winner": "random_forest",
+  "threshold": 0.843,
+  "budget_constraint": 0.3,
+  "utility_assumption": "100 units per correctly prioritized malignant case; 5 per flagged case",
+  "test_metrics": {
+    "roc_auc": 0.9933862433862434,
+    "pr_auc": 0.9897382320173914,
+    "brier": 0.031299196624941725,
+    "precision": 1.0,
+    "recall": 0.8571428571428571,
+    "flag_rate": 0.3157894736842105
+  },
+  "note": "Educational decision-support experiment only; not a clinical device."
+}
