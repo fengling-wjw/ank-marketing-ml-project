@@ -1,0 +1,10 @@
+{
+  "rows": 569,
+  "features": 30,
+  "missing_cells": 0,
+  "duplicate_feature_rows": 0,
+  "diagnosis_counts": {
+    "benign": 357,
+    "malignant": 212
+  }
+}

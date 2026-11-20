@@ -1,0 +1,6 @@
+{
+  "outputs/robustness/repeated_splits.csv": "matches recorded results within floating point tolerance",
+  "outputs/corrected/leaderboard.csv": "matches recorded results within floating point tolerance",
+  "outputs/corrected/threshold_curve.csv": "matches recorded results within floating point tolerance",
+  "outputs/corrected/segment_metrics.csv": "matches recorded results within floating point tolerance"
+}

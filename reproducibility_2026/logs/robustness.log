@@ -1,0 +1,42 @@
+Completed 1/10: seed=2026, model=forest, AUROC=0.9937
+Completed 2/10: seed=2027, model=forest, AUROC=0.9957
+Completed 3/10: seed=2028, model=logistic, AUROC=0.9990
+Completed 4/10: seed=2029, model=logistic, AUROC=0.9967
+Completed 5/10: seed=2030, model=forest, AUROC=0.9881
+Completed 6/10: seed=2031, model=logistic, AUROC=0.9960
+Completed 7/10: seed=2032, model=forest, AUROC=0.9964
+Completed 8/10: seed=2033, model=logistic, AUROC=0.9957
+Completed 9/10: seed=2034, model=logistic, AUROC=0.9960
+Completed 10/10: seed=2035, model=logistic, AUROC=0.9845
+{
+  "n_splits": 10,
+  "description": "Repeated stratified holdout; test sets overlap, not independent external validation",
+  "metrics": {
+    "roc_auc": {
+      "mean": 0.9941798941798942,
+      "min": 0.984457671957672,
+      "max": 0.9990079365079365
+    },
+    "average_precision": {
+      "mean": 0.992372412901075,
+      "min": 0.9822172655980559,
+      "max": 0.9984126984126984
+    },
+    "precision": {
+      "mean": 1.0,
+      "min": 1.0,
+      "max": 1.0
+    },
+    "recall": {
+      "mean": 0.7785714285714287,
+      "min": 0.47619047619047616,
+      "max": 0.9285714285714286
+    },
+    "test_flag_rate": {
+      "mean": 0.2868421052631579,
+      "min": 0.17543859649122806,
+      "max": 0.34210526315789475
+    }
+  },
+  "test_budget_exceeded_count": 6
+}

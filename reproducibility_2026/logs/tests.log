@@ -1,0 +1,8 @@
+test_main_threshold_satisfies_validation_budget (test_project_results.RecordedResultsTest.test_main_threshold_satisfies_validation_budget) ... ok
+test_quality_and_dataset_counts (test_project_results.RecordedResultsTest.test_quality_and_dataset_counts) ... ok
+test_repeated_split_summary_matches_rows (test_project_results.RecordedResultsTest.test_repeated_split_summary_matches_rows) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.031s
+
+OK
